@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&di'sp'lay=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Gerador de senhas</h1>
+
+      <div class="resultado"></div>
+
+      <form class="options">
+        <div>
+          <label for="passwordLength">Tamanho da senha</label>
+          <input type="text" id="passwordLength" />
+        </div>
+        <div>
+          <label>Adicionar letras maiúsculas</label>
+          <input type="checkbox" id="letterUppercase" />
+        </div>
+        <div>
+          <label>Adicionar letras minusculas</label>
+          <input type="checkbox" id="letterLowercase" />
+        </div>
+        <div>
+          <label>Adicionar números</label>
+          <input type="checkbox" id="numbers" />
+        </div>
+        <div>
+          <label>Adicionar símbolos</label>
+          <input type="checkbox" id="symbols" />
+        </div>
+        <button type="submit" id="submit">Gerar Senha</button>
+      </form>
+    </div>
+    <script src="assets/js/bundle.js"></script>
+  </body>
+</html>

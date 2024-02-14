@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h1>Tabela Imc</h1>
+        <div class="table-imc">
+          <div class="imc-range">
+            <h2>IMC</h2>
+            <ul>
+              <li>Menos que 18,5</li>
+              <li>Entre 18,5 e 24,9</li>
+              <li>Entre 25 e 29,9</li>
+              <li>Entre 30 e 34,9</li>
+              <li>Entre 35 e 39,9</li>
+              <li>Mais do que 40</li>
+            </ul>
+          </div>
+          <div class="result-imc">
+            <h2>Resultado</h2>
+            <ul>
+              <li>Abaixo do peso</li>
+              <li>Peso Normal</li>
+              <li>Sobrepeso</li>
+              <li>Obesidade grau 1</li>
+              <li>Obesidade grau 2</li>
+              <li>Obesidade grau 3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="inputs">
+          <label for="weight">Peso</label>
+          <input type="text" id="weight" />
+          <label for="height">Altura</label>
+          <input type="text" id="height" />
+          <button type="submit" id="submit">Enviar</button>
+        </div>
+      </form>
+      <div class="result"></div>
+    </div>
+    <script src="src/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  user-select: none;
+}
+
+body {
+  color: #ffffff;
+  height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 0.625rem;
+  background-color: #424242;
+  width: 31.25rem;
+  padding: 3.125rem;
+}
+
+.content h1 {
+  margin-bottom: 0.625rem;
+}
+
+.inputs {
+  margin-top: 0.625rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  margin: 0.3125rem 0;
+}
+
+.inputs input {
+  padding: 0.3125rem;
+  outline: none;
+}
+
+.inputs button {
+  margin-top: 1.25rem;
+  font-size: 1.5rem;
+  padding: 0.3125rem;
+}
+
+.tarefas {
+  height: 8rem;
+  overflow-y: scroll;
+  margin-top: 1.25rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.tarefas ul {
+  padding-left: 1.5625rem;
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  user-select: none;
+}
+
+body {
+  color: #ffffff;
+  height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #424242;
+  width: 31.25rem;
+  padding: 3.125rem;
+}
+
+.resultado {
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  color: slategray;
+}
+
+.options div {
+  display: flex;
+  gap: 0.75rem;
+  margin: 1.25rem 0;
+  align-items: center;
+}
+
+.options input[type='checkbox'] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.options button {
+  width: 100%;
+  font-size: 1.5rem;
+}

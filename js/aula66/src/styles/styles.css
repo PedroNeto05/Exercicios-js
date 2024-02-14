@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  user-select: none;
+}
+
+body {
+  color: #ffffff;
+  height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 0.625rem;
+  background-color: #424242;
+  width: 31.25rem;
+  padding: 3.125rem;
+}
+
+.container p {
+  font-size: 4rem;
+}
+
+.container button {
+  padding: 0.3125rem;
+}
+
+.pausado {
+  color: red;
+}
