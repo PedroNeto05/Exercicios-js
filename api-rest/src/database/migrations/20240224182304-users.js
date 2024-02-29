@@ -1,4 +1,3 @@
-/** @type {import('sequelize-cli').Migration} */
 module.exports = {
   up(queryInterface, Sequelize) {
     return queryInterface.createTable('users', {
@@ -28,8 +27,7 @@ module.exports = {
       updated_at: {
         type: Sequelize.DATE,
         allowNull: false,
-      }
-
+      },
     });
   },
 
